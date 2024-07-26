@@ -2,78 +2,70 @@
 **************************************************************************************/
 
 #promocao {
+  /** Altura e margem **/
+  height: 360px;
+  margin-top: 70px;
 
-    /** Altura e margem **/
-    height: 360px;
-    margin-top: 70px;
-
-    /** Imagem do Banner  **/
-    background-image: url('../imagens/promocao.jpg');
+  /** Imagem do Banner  **/
+  background-image: url("../imagens/promocao.jpg");
 }
-
 
 /** Configuração do header principal da promoção com id "promocaoH1" 
 **************************************************************************************/
 
 #promocaoH1 {
+  /** Cor da fonte **/
+  color: rgb(255, 217, 0);
 
-    /** Cor da fonte **/
-    color: rgb(255, 217, 0);
+  /** Tamanho de fonte **/
+  font-family: "Impact";
 
-    /** Tamanho de fonte **/
-    font-family: 'Impact'  ;
-    
-    /** Remove a margem **/
-    margin: 0;
-    
-    /** Posicionando o elemento **/
-    margin-left: 20px;
-    position: absolute;
+  /** Remove a margem **/
+  margin: 0;
 
-    /** Aplica sombra ao texto **/
-    text-shadow: 2px 2px 4px #c40000;
+  /** Posicionando o elemento **/
+  margin-left: 20px;
+  position: absolute;
+
+  /** Aplica sombra ao texto **/
+  text-shadow: 2px 2px 4px #c40000;
 }
-
 
 /** Configura o header com o preço no banner com id "promocaoValor" 
 **************************************************************************************/
 
 #promocaoValor {
+  /** Cor da fonte  **/
+  color: rgb(255, 255, 255);
 
-    /** Cor da fonte  **/
-    color: rgb(255, 255, 255);
+  /** Tamanho da fonte **/
+  font-family: "Courier New";
 
-    /** Tamanho da fonte **/
-    font-family:'Courier New' ;
+  /** Remove a margem  **/
+  margin: 0;
 
-    /** Remove a margem  **/
-    margin: 0;
+  /** Aplica sombra ao texto **/
+  text-shadow: 2px 2px 4px #ff0000;
 
-    /** Aplica sombra ao texto **/
-    text-shadow: 2px 2px 4px #ff0000;
+  /** Posiciona os elementos **/
+  left: 360px;
+  top: 330px;
+  position: relative;
 
-    /** Posiciona os elementos **/
-    left: 360px;
-    top: 330px;
-    position: relative;
-
-    /** Largura **/
-    width: 500px;
+  /** Largura **/
+  width: 500px;
 }
 
 #promocaoDescricao {
+  color: rgb(255, 0, 0);
 
-    color:rgb(255, 0, 0) ;
+  font-family: "Courier New" 50px;
 
-    font-family: 'Courier New' 50px;
+  margin: 0;
 
-    margin: 0;
+  text-shadow: 2px 2px 4px #00cfd6;
 
-    text-shadow: 2px 2px 4px #00cfd6;
-
-    left: 80px;
-    top: 60px;
-    position: relative;
+  left: 80px;
+  top: 60px;
+  position: relative;
 }
-
-

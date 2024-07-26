@@ -1,164 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
 
-
-	<!------------------
+    <!------------------
 		TÍTULO DA PÁGINA
 	------------------------------------->
 
     <title>Ítalo Automóvel</title>
 
-
-	<!------------------
+    <!------------------
 		CSS
 	------------------------------------->
 
-    <link href="css/master.css" type="text/css" rel="stylesheet">
-    <link href="css/topo.css" type="text/css" rel="stylesheet">
-    <link href="css/menu.css" type="text/css" rel="stylesheet">
-    <link href="css/conteudo.css" type="text/css" rel="stylesheet">
-    <link href="css/promocao.css" type="text/css" rel="stylesheet">
-    <link href="css/produtos.css" type="text/css" rel="stylesheet">
-    <link href="css/entrega.css" type="text/css" rel="stylesheet">
-    <link href="css/rodape.css" type="text/css" rel="stylesheet">
+    <link href="css/master.css" type="text/css" rel="stylesheet" />
+    <link href="css/topo.css" type="text/css" rel="stylesheet" />
+    <link href="css/menu.css" type="text/css" rel="stylesheet" />
+    <link href="css/conteudo.css" type="text/css" rel="stylesheet" />
+    <link href="css/promocao.css" type="text/css" rel="stylesheet" />
+    <link href="css/produtos.css" type="text/css" rel="stylesheet" />
+    <link href="css/entrega.css" type="text/css" rel="stylesheet" />
+    <link href="css/rodape.css" type="text/css" rel="stylesheet" />
     <style>
-        .img { height: auto;
-               width: auto;
-               object-fit: cover;
-        }
+      .img {
+        height: auto;
+        width: auto;
+        object-fit: cover;
+      }
+      .img:hover {
+        transition: all 1s;
+        cursor: pointer;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
-	<!------------------
+  <body>
+    <!------------------
 		CABEÇALHO, 
 		LOGO, TÍTULO E MENU
 	------------------------------------->
 
     <div id="header">
-
-	<!--- LOGO
+      <!--- LOGO
 	------------------------------------->
-        <div id="logo">
-            <img id="logoImg" src="imagens/LogoLoja.png" alt="Logo da Loja">
+      <div id="logo">
+        <img id="logoImg" src="imagens/LogoLoja.png" alt="Logo da Loja" />
 
-
-	<!--- TÍTULO
+        <!--- TÍTULO
 	------------------------------------->
-            <h1 id="tituloLogo">Ítalo Veículos</h1>
-        </div>
+        <h1 id="tituloLogo">Ítalo Veículos</h1>
+      </div>
 
-	<!--- MENU
+      <!--- MENU
 	------------------------------------->
-        <div id="menu">
-            <ul class="listaMenu">
-		<li><a id="menuAtual" href="index.html">AUTOMÓVEIS</a></li>
-                <li><a href="Marcas.html">MARCAS</a></li>
-		 <li><a href="localizacao.html">LOCALIZAÇÃO</a></li>
-		 <li><a href="Eventos.html">EVENTOS</a></li>
-                <li><a href="contato.html">CONTATO</a></li>
-            </ul>
-        </div>
+      <div id="menu">
+        <ul class="listaMenu">
+          <li><a id="menuAtual" href="index.html">AUTOMÓVEIS</a></li>
+          <li><a href="Marcas.html">MARCAS </a></li>
+          <li><a href="localizacao.html">LOCALIZAÇÃO</a></li>
+          <li><a href="Eventos.html">EVENTOS</a></li>
+          <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+      </div>
     </div>
 
-	<!------------------
+    <!------------------
 		CONTEÚDO, PROMOCAO, 
 		MAIS VENDIDOS
 	------------------------------------->
-    
+
     <div id="conteudo">
-
-	<!--- PROMOCAO
+      <!--- PROMOCAO
 	------------------------------------->
-        <div id="promocao">
-            <h1 id="promocaoH1">Oferta da Semana:</h1>
-            <h2 id="promocaoValor">Fiat Marea R$ 10.900,00</h2>
-            <h3 id="promocaoDescricao"> + 1 Mêcanico de Brinde</h3>
+      <div id="promocao">
+        <h1 id="promocaoH1">Oferta da Semana:</h1>
+        <h2 id="promocaoValor">Fiat Marea R$ 10.900,00</h2>
+        <h3 id="promocaoDescricao">+ 1 Mêcanico de Brinde</h3>
+      </div>
+
+      <!--- MAIS VENDIDOS
+	------------------------------------->
+      <div id="maisVendidos">
+        <h1 id="tituloConteudo">Descontos Imperdíveis!</h1>
+        <div id="areaProdutos">
+          <table>
+            <tr>
+              <td>
+                <p class="tituloProduto">PALIO SPORTING 2016</p>
+                <img src="imagens/palio.png" class="img" />
+                <p class="precoProduto">R$: 58.990,00</p>
+              </td>
+              <td>
+                <p class="tituloProduto">GOL TRENDLINE 2016</p>
+                <img src="imagens/gol.png" class="img" />
+                <p class="precoProduto">R$: 49.900,00</p>
+              </td>
+              <td>
+                <p class="tituloProduto">CLIO 2014</p>
+                <img src="imagens/CLIO.PNG" class="img" />
+                <p class="precoProduto">R$: 34.900,00</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="tituloProduto">VOYAGE 2022</p>
+                <img src="imagens/voyage.png" class="img" />
+                <p class="precoProduto">R$: 66.900,00</p>
+              </td>
+              <td>
+                <p class="tituloProduto">HB20 SENSE 2023</p>
+                <img src="imagens/HB20.PNG" class="img" />
+                <p class="precoProduto">R$: 68.900,00</p>
+              </td>
+              <td>
+                <p class="tituloProduto">RENEGADE 2023</p>
+                <img src="imagens/RENEGADE.PNG" class="img" />
+                <p class="precoProduto">R$: 123.900,00</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="tituloProduto">T-CROSS 2021</p>
+                <img src="imagens/TCROSS.PNG" class="img" />
+                <p class="precoProduto">R$: 121.900,00</p>
+              </td>
+              <td>
+                <p class="tituloProduto">DISCOVERY 2015</p>
+                <img src="imagens/DISCOVERY.PNG" class="img" />
+                <p class="precoProduto">R$: 136.900,00</p>
+              </td>
+              <td>
+                <p class="tituloProduto">AUDI Q3 2018</p>
+                <img src="imagens/Q3.PNG" class="img" />
+                <p class="precoProduto">R$: 118.900,00</p>
+              </td>
+            </tr>
+          </table>
         </div>
-
-	<!--- MAIS VENDIDOS
-	------------------------------------->
-        <div id="maisVendidos">
-            <h1 id="tituloConteudo"> Descontos Impedíveis!</h1>
-            <div id="areaProdutos">
-                <table>
-                    <tr>
-                        <td>
-                            <p class="tituloProduto">PALIO SPORTING 2016</p>
-                            <img src="imagens/palio.png" class="img">                                
-                            <p class="precoProduto">R$: 58.990,00</p>
-                        </td>
-                        <td>
-                            <p class="tituloProduto">GOL TRENDLINE 2016</p>
-                            <img src="imagens/gol.png" class="img">                                
-                            <p class="precoProduto">R$: 49.900,00</p>
-                        </td>
-                        <td>
-                            <p class="tituloProduto">CLIO 2014</p>
-                            <img src="imagens/CLIO.PNG" class="img">                                
-                            <p class="precoProduto">R$: 34.900,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="tituloProduto">VOYAGE 2022</p>
-                            <img src="imagens/voyage.png" class="img">                                
-                            <p class="precoProduto">R$: 66.900,00</p>
-                        </td>
-                        <td>
-                            <p class="tituloProduto">HB20 SENSE 2023</p>
-                            <img src="imagens/HB20.PNG" class="img">                                
-                            <p class="precoProduto">R$: 68.900,00</p>
-                        </td>
-                        <td>
-                            <p class="tituloProduto">RENEGADE 2023</p>
-                            <img src="imagens/RENEGADE.PNG" class="img">                                
-                            <p class="precoProduto">R$: 123.900,00</p>
-                        </td>
-                        
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="tituloProduto">T-CROSS 2021</p>
-                            <img src="imagens/TCROSS.PNG" class="img">                                
-                            <p class="precoProduto">R$: 121.900,00</p>
-                        </td>
-                        <td>
-                            <p class="tituloProduto">DISCOVERY 2015</p>
-                            <img src="imagens/DISCOVERY.PNG" class="img">                                
-                            <p class="precoProduto">R$: 136.900,00</p>
-                        </td>
-                        <td>
-                            <p class="tituloProduto">AUDI Q3 2018</p>
-                            <img src="imagens/Q3.PNG" class="img">                                
-                            <p class="precoProduto">R$: 118.900,00</p>
-                        </td>                        
-                    </tr>                    
-                </table>
-            </div>
-        </div>        
+      </div>
     </div>
 
-
-	<!------------------
+    <!------------------
 		ENTREGA
 	------------------------------------->
 
     <div id="entrega">
-        <div id="tel">
-            <a href="https://wa.me/5548999118235"><h4>(48) 99911-8235</h4></a>
-            <h5>Faça sua Simulação!</h5>
-        </div>
-            <a href="https://wa.me/5548999118235"><img src="imagens/whatsapp.jpg" height="100px" width="100px"> </a>
-
+      <div id="tel">
+        <a href="https://wa.me/5548999118235"><h4>(48) 99911-8235</h4></a>
+        <h5>Faça sua Simulação!</h5>
+      </div>
+      <a href="https://wa.me/5548999118235"
+        ><img src="imagens/whatsapp.jpg" height="100px" width="100px" />
+      </a>
     </div>
 
-	<!------------------
+    <!------------------
 		RODAPÉ
 	------------------------------------->
-
-</body>
+  </body>
 </html>

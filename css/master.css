@@ -2,13 +2,15 @@
 **************************************************************************************/
 
 body {
+  /** Muda a cor do fundo da página **/
+  background-image: url(../imagens/fundocinza.png);
 
-    /** Muda a cor do fundo da página **/
-    background-color: rgb(161, 161, 161);
+  height: auto;
+  width: auto;
 
-    /** Fonte **/
-    font-family: Candara, Helvetica, sans-serif; 
+  /** Fonte **/
+  font-family: "Helvetica";
 
-    /** Margem zerada **/
-    margin: 0;
+  /** Margem zerada **/
+  margin: 0;
 }

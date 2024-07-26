@@ -2,85 +2,86 @@
 **************************************************************************************/
 
 #tituloConteudo {
-    /** Define a cor **/
-    color: rgb(255, 0, 0);
-        
-    /** Alinha ao centro **/
-    text-align: center;
-    
-    /** Reduz a margem inferior **/
-    margin-bottom: 10px;
-}
+  /** Define a cor **/
+  color: rgb(255, 0, 0);
 
+  /** Alinha ao centro **/
+  text-align: center;
+
+  /** Reduz a margem inferior **/
+  margin-bottom: 10px;
+}
 
 /** Configuração da tabela dentro da DIV com id "areaProdutos" 
 **************************************************************************************/
 
 #areaProdutos table {
-    /** Espaço entre as células **/    
-    border-spacing: 25px;
-    border-collapse: separate;
+  /** Espaço entre as células **/
+  border-spacing: 20px;
+  border-collapse: separate;
 
-    /** Alinha ao centro **/
-    text-align: center;
+  /** Alinha ao centro **/
+  text-align: center;
 }
-
 
 /** Configuração da td da tabela com id "areaProdutos" 
 **************************************************************************************/
 
-#areaProdutos td {    
+#areaProdutos td {
+  /** Largura das células **/
+  width: 250px;
 
-    /** Largura das células **/
-    width: 250px;
-    
-    /** Cor do texto   **/
-    color: rgb(230, 226, 0);
+  /** Cor do texto   **/
+  color: rgb(251, 255, 42);
 
-    /** Tamanho de fonte   **/
-    font-family: "arial";
+  /** Tamanho de fonte   **/
+  font-family: "arial";
+  font-size: 18px;
+  font-style: italic;
 }
-
 
 /** Configuração das imagens da area de produtos 
 **************************************************************************************/
 
 #areaProdutos td img {
+  /** Configura um tamanho padrão para as imagens dos produtos **/
+  width: 190px;
+  height: 190px;
 
-    /** Configura um tamanho padrão para as imagens dos produtos **/
-    width: 190px;
-    height: 190px;
+  /** Separa a imagem do título acima desta **/
+  margin-top: 5px;
 
-    /** Separa a imagem do título acima desta **/
-    margin-top: 5px;
+  /** Arredonda as fotos **/
+  border-radius: 20%;
 
-    /** Arredonda as fotos **/
-    border-radius: 20%;
-    
-    /** Borda da foto  **/
-    border: 4px solid rgb(248, 248, 248);
+  /** Borda da foto  **/
+  border: 4px solid rgb(248, 248, 248);
 }
-
 
 /** Configuração dos elementos anotados com a classe "tituloProduto" 
 **************************************************************************************/
 
 .tituloProduto {
-    
-    /** Faz com que a fonte do elemento fique em negrito **/
-    font-weight: bold;
-    
-    /** Remove a margem padrão dos elementos P **/
-    margin: 0;
-}
+  /** Faz com que a fonte do elemento fique em negrito **/
+  font-weight: bold;
 
+  /** Remove a margem padrão dos elementos P **/
+  margin: 0;
+}
 
 /** Seleciona elementos anotados com a classe "precoProduto" 
 **************************************************************************************/
 
 .precoProduto {
-
-    /** Remove a margem padrão dos elementos P **/
-    margin: 0;
+  color: #ff0000;
+  font-size: 14px;
+  font-family: "verdana";
+  font-style: normal;
+  border: 3px solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-top: 2px;
+  border-width: 2px;
+  /** Remove a margem padrão dos elementos P **/
+  margin: 0;
 }
-

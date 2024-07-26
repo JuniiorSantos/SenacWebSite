@@ -2,77 +2,67 @@
 **************************************************************************************/
 
 #menu {
+  /** Tamanho **/
+  width: 100%;
+  height: 60px;
 
-    /** Tamanho **/
-    width: 100%;
-	height: 60px;
-
-    /** Cor do fundo **/
-    background-color: rgb(31, 31, 31);
+  /** Cor do fundo **/
+  background-color: rgb(255, 255, 255);
 }
-
 
 /** Configura a lista ordenada que compõe o menu 
 **************************************************************************************/
 
 .listaMenu {
-    
-    /** Largura **/
-    width: 6000px;
+  /** Largura **/
+  width: 6000px;
 
-    /** Posicao  **/
-    position: relative;
-    left: 50%;
-    margin-left: -320px;
-    margin-top: 35px;
+  /** Posicao  **/
+  position: relative;
+  left: 50%;
+  margin-left: -320px;
+  margin-top: 35px;
 }
-
 
 /** Configura os elementos li do menu com a classe "listaMenu" 
 **************************************************************************************/
 
 .listaMenu li {
-
-    /** Mantém os elementos em uma linha **/
-    display: inline-block;
+  /** Mantém os elementos em uma linha **/
+  display: inline-block;
 }
-
 
 /** Configura os elementos li a com a classe "listaMenu" 
 **************************************************************************************/
 
 .listaMenu li a {
+  /** Remove o sublinhado de links **/
+  text-decoration: none;
 
-    /** Remove o sublinhado de links **/
-    text-decoration: none;
+  /** Configura o tamanho de 50px para os itens de link da lista **/
+  height: 40px;
 
-    /** Configura o tamanho de 50px para os itens de link da lista **/
-    height: 40px;
-
-    /** Posicionamento**/
-    line-height: 60px;
-    padding-left: 15px;
-    padding-right: 15px;
+  /** Posicionamento**/
+  line-height: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
 
 /** Configura os elementos li a quando estão normal e depois de clicados 
 **************************************************************************************/
 
 .listaMenu li a:link,
 .listaMenu li a:visited {
-
-    /** Muda a cor do texto dos links para branco **/
-    color: rgb(10, 10, 10);
+  /** Muda a cor do texto dos links para branco **/
+  color: rgb(10, 10, 10);
 }
 
 /** Configura os elementos li a quando o mouse passa em cima 
 **************************************************************************************/
 
 .listaMenu li a:hover {
-
-    /** Muda a cor do link **/
-    color: rgb(238, 255, 0);
+  /** Muda a cor do link **/
+  color: rgb(238, 255, 0);
 }
 
 /** Configura o link com id "menuAtual" 
@@ -80,7 +70,6 @@
 
 #menuAtual:link,
 #menuAtual:visited {
-
-    /** Deixa a fonte em negrito **/
-    font-weight: bold;
+  /** Deixa a fonte em negrito **/
+  font-weight: bold;
 }
