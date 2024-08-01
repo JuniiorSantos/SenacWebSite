@@ -5,8 +5,20 @@ body {
   /** Muda a cor do fundo da página **/
   background-image: url(../imagens/fundocinza.png);
 
-  height: auto;
-  width: auto;
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  
+  
+  .container {
+    background-image: url('sua-imagem.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
 
   /** Fonte **/
   font-family: "Helvetica";

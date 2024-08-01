@@ -8,6 +8,8 @@
 
   /** Imagem do Banner  **/
   background-image: url("../imagens/promocao.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /** Configuração do header principal da promoção com id "promocaoH1" 
@@ -48,7 +50,7 @@
   text-shadow: 2px 2px 4px #ff0000;
 
   /** Posiciona os elementos **/
-  left: 360px;
+  left: 340px;
   top: 330px;
   position: relative;
 
