@@ -7,7 +7,7 @@
   height: 60px;
 
   /** Cor do fundo **/
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 /** Configura a lista ordenada que compõe o menu 
@@ -54,7 +54,7 @@
 .listaMenu li a:link,
 .listaMenu li a:visited {
   /** Muda a cor do texto dos links para branco **/
-  color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
 }
 
 /** Configura os elementos li a quando o mouse passa em cima 
